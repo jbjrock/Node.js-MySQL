@@ -17,7 +17,7 @@ connection.connect(function (err) {
     startPrompt();
 });
 
-//=================================Inquirer introduction===============================
+//Introduction to inquirer
 
 function startPrompt() {
 
@@ -77,7 +77,7 @@ function inventory() {
     }
 }
 
-//=================================Inquirer user purchase===============================
+//Inquirer used for purchase
 
 function continuePrompt() {
 
@@ -97,7 +97,7 @@ function continuePrompt() {
     });
 }
 
-//=================================Item selection and Quantity desired===============================
+//Item selection and quantity
 
 function selectionPrompt() {
 
@@ -130,7 +130,7 @@ function selectionPrompt() {
                 } else {
                     //list item information for user for confirm prompt
                     console.log("===================================");
-                    console.log("Awesome! We can fulfull your order.");
+                    console.log("Awesome! Let's process your order.");
                     console.log("===================================");
                     console.log("You've selected:");
                     console.log("----------------");
@@ -152,7 +152,7 @@ function selectionPrompt() {
     });
 }
 
-//=================================Confirm Purchase===============================
+//Just confirming if the customer would like to process the order
 
 function confirmPrompt(newStock, purchaseId) {
 

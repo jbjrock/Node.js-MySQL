@@ -58,14 +58,14 @@ CREATE TABLE products
     INSERT INTO products
         (product_name, department_name, price, stock_quantity)
     VALUES
-        ("Macbook Air", "Computers", 1199.00, 15);
+        ("Macbook Air", "Computers", 1199.00, 40);
 
     INSERT INTO products
         (product_name, department_name, price, stock_quantity)
     VALUES
-        ("Lakers Hat", "Hats", 29.99, 20);
+        ("Lakers Hat", "Hats", 29.99, 50);
 
     INSERT INTO products
         (product_name, department_name, price, stock_quantity)
     VALUES
-        ("Eero", "Smart Home", 399.99, 20);
+        ("Eero", "Smart Home", 399.99, 80);
