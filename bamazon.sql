@@ -15,7 +15,7 @@ CREATE TABLE products
     price DECIMAL
     (10,2) NULL,
     stock_quantity INT
-    (10) NULL,
+    (100) NULL,
     PRIMARY KEY
     (item_id)
 );
@@ -23,17 +23,17 @@ CREATE TABLE products
     INSERT INTO products
         (product_name, department_name, price, stock_quantity)
     VALUES
-        ("PS4", "Games", 250.00, 10);
+        ("PS4", "Games", 250.00, 100);
 
     INSERT INTO products
         (product_name, department_name, price, stock_quantity)
     VALUES
-        ("Lebron Jersey", "Clothing", 119.99, 20);
+        ("Lebron Jersey", "Clothing", 119.99, 40);
 
     INSERT INTO products
         (product_name, department_name, price, stock_quantity)
     VALUES
-        ("Lebron 16 low", "Shoes", 185.00, 15);
+        ("Lebron 16 low", "Shoes", 185.00, 30);
 
     INSERT INTO products
         (product_name, department_name, price, stock_quantity)
